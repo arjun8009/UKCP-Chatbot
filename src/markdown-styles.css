@@ -1,0 +1,113 @@
+/* markdown-styles.css */
+
+.markdown-container {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+
+.markdown-container table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  background-color: transparent;
+}
+
+.markdown-container th, 
+.markdown-container td {
+  border: 1px solid #dfe2e5;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.markdown-container tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Fix Lists */
+.markdown-container ul, 
+.markdown-container ol {
+  padding-left: 2em;
+  margin-bottom: 16px;
+}
+
+/* Fix Headers */
+.markdown-container h1, 
+.markdown-container h2, 
+.markdown-container h3 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* markdown-styles.css */
+
+.markdown-container {
+  text-align: left; /* Forces the text to the left */
+}
+
+/* Fix Paragraph Spacing */
+.markdown-container p {
+  margin-top: 0;
+  margin-bottom: 8px; /* Standard paragraph gap */
+  line-height: 1.5;
+}
+
+/* Fix the Bullet Points (Lists) */
+.markdown-container ul, 
+.markdown-container ol {
+  margin: 0 0 16px 0;
+  padding-left: 1.5rem; /* Moves bullets in from the edge */
+  text-align: left;
+}
+
+.markdown-container li {
+  margin-bottom: 4px; /* Tightens space between bullet points */
+  display: list-item; /* Ensures the bullet is actually visible */
+}
+
+/* Remove margin from the very last element to prevent extra bottom space */
+.markdown-container > *:last-child {
+  margin-bottom: 0;
+}
+
+/* Fix Table text alignment (if it became centered) */
+.markdown-container table {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.markdown-container {
+  text-align: left;
+  /* Set the base font size to something standard like 0.875rem or 14px */
+  font-size: 0.9rem; 
+  color: #333; /* Softens the black text slightly */
+}
+
+/* Shrink Paragraphs */
+.markdown-container p {
+  margin-bottom: 8px;
+  line-height: 1.4; /* Tighter line height makes it look smaller */
+}
+
+/* Shrink Headings - Markdown defaults are usually huge */
+.markdown-container h1 { font-size: 1.4rem; margin-top: 16px; }
+.markdown-container h2 { font-size: 1.25rem; margin-top: 14px; }
+.markdown-container h3 { font-size: 1.1rem; margin-top: 12px; }
+
+/* Shrink Tables text */
+.markdown-container table {
+  font-size: 0.85rem; /* Make table data slightly smaller than main text */
+}
+
+/* Shrink Lists */
+.markdown-container li {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+
+.markdown-container {
+  padding: 4px 8px; /* Adds a tiny bit of internal space */
+}
+
